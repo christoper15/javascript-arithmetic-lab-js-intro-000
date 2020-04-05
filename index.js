@@ -15,9 +15,11 @@ return x/y
 }
 
 function increment(n) {
-return n++
+n++
+return n
 }
 
 function decrement(n) {
-return n--
+n--
+return n
 }
